@@ -1,0 +1,804 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta name="description" content="Landing Page by DivineBlow" />
+		<title>AUHandy</title>
+		<link rel="shortcut icon" href="favicon.ico" />
+
+		<!-- Bootstrap CDN -->
+		<link
+			rel="stylesheet"
+			href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
+			integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn"
+			crossorigin="anonymous"
+		/>
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+			integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+			crossorigin="anonymous"
+			referrerpolicy="no-referrer"
+		/>
+
+		<!-- AOS -->
+		<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+
+		<!-- 2GIS -->
+		<script src="https://maps.api.2gis.ru/2.0/loader.js?pkg=full"></script>
+
+		<!-- Main CSS -->
+		<link rel="stylesheet" type="text/css" href="/CSS/normalize.css" />
+		<link rel="stylesheet" type="text/css" href="/CSS/style.css" />
+		<link rel="stylesheet" type="text/css" href="/CSS/responsive-style.css" />
+	</head>
+	<body>
+		<!-- Header -->
+		<header id="header">
+			<nav
+				class="navbar navbar-expand top d-none d-lg-block d-md-block pt-md-2"
+			>
+				<div class="container header">
+					<ul class="navbar-nav">
+						<li class="nav-item">We make your home more quality.</li>
+					</ul>
+
+					<div class="ml-auto"></div>
+
+					<ul class="navbar-nav">
+						<li class="nav-item mr-3">
+							<a href="#" class="nav-link">
+								<i class="fab fa-facebook-f mr-1"></i>
+							</a>
+						</li>
+						<li class="nav-item mr-3">
+							<a href="#" class="nav-link">
+								<i class="fab fa-twitter mr-1"></i>
+							</a>
+						</li>
+						<li class="nav-item mr-3">
+							<a href="#" class="nav-link">
+								<i class="fab fa-google-plus-g mr-1"></i>
+							</a>
+						</li>
+						<li class="nav-item mr-3">
+							<a href="#" class="nav-link">
+								<i class="fab fa-behance mr-1"></i>
+							</a>
+						</li>
+					</ul>
+				</div>
+			</nav>
+
+			<nav class="navbar navbar-expand-lg navigation-wrap">
+				<div class="container">
+					<a class="navbar-brand" href="#"
+						><img class="siteLogo" src="./IMG/Logo.png" alt="Site Logo"
+					/></a>
+					<button
+						class="navbar-toggler"
+						type="button"
+						data-toggle="collapse"
+						data-target="#navbarText"
+						aria-controls="navbarText"
+						aria-expanded="false"
+						aria-label="Toggle navigation"
+					>
+						<i class="fas fa-stream navbar-toggler-icon"></i>
+					</button>
+					<div class="collapse navbar-collapse" id="navbarText">
+						<ul class="navbar-nav ml-auto mb-2 mb-lg-0">
+							<li class="nav-item">
+								<a class="nav-link" href="#home">Home</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="#choose">Blog</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="#services">Services</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="#projects">Projects</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="#problems">Pages</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="#contacts">Contact</a>
+							</li>
+							<li class="nav-item">
+								<a href="#" class="nav-link">
+									<i class="fas fa-search"></i>
+								</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</nav>
+		</header>
+
+		<!-- Home -->
+		<section id="home">
+			<div class="main-wrapper">
+				<div class="top-wrapper">
+					<div class="container">
+						<div class="row">
+							<div class="col-lg-4 col-sm-12 left-wrapper">
+								<div data-aos="fade-right" data-aos-delay="300">
+									<img
+										class="top-rabbit"
+										src="./IMG/HeaderRabbit.png"
+										alt="Rabbit"
+									/>
+								</div>
+							</div>
+
+							<div
+								class="col-lg-8 col-sm-12 pr-lg-5 pr-md-5 pr-2 right-wrapper"
+							>
+								<h5 class="py-4" data-aos="zoom-out" data-aos-delay="300">
+									Expert Handyman & Remodeling
+								</h5>
+								<p data-aos="zoom-in" data-aos-delay="400">
+									Integer consectetur dapibus nisi, et faucibus augue lobortis
+									ut. Proin quis porttitor sem. Donec ultrices felis quis
+									tincidunt
+								</p>
+								<div class="d-flex flex-row">
+									<div data-aos="fade-up" data-aos-delay="400" class="mt-5">
+										<button
+											id="#home"
+											class="smooth-anchor btn"
+											data-toggle="modal"
+											data-target="#staticBackdrop"
+										>
+											Learn More
+										</button>
+									</div>
+									<div data-aos="fade-up" data-aos-delay="400" class="mt-5">
+										<button id="#contact" class="smooth-anchor btn">
+											Get a quote
+										</button>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<!-- Modal Form -->
+			<div
+				class="modal fade"
+				id="staticBackdrop"
+				data-backdrop="static"
+				data-keyboard="false"
+				tabindex="-1"
+				aria-labelledby="staticBackdropLabel"
+				aria-hidden="true"
+			>
+				<div class="modal-dialog modal-dialog-centered">
+					<div class="modal-content">
+						<div class="modal-header">
+							<h5 class="modal-title" id="staticBackdropLabel">Contact us</h5>
+							<button
+								type="button"
+								class="close"
+								data-dismiss="modal"
+								aria-label="Close"
+							>
+								<span aria-hidden="true">&times;</span>
+							</button>
+						</div>
+						<div class="modal-body">
+							<form class="needs-validation" novalidate>
+								<div class="form-group">
+									<label for="validationCustom01">Your name:</label>
+									<input
+										type="text"
+										class="form-control"
+										id="validationCustom01"
+										placeholder="Ivan Ivanov"
+										required
+									/>
+									<div class="valid-feedback">Good!</div>
+								</div>
+								<div class="form-group">
+									<label for="validationCustom02">Your telephone:</label>
+									<div class="input-group" id="show_hide_password">
+										<input
+											type="password"
+											class="form-control"
+											id="validationCustom02"
+											placeholder="+79241231231"
+											required
+										/>
+										<div class="input-group-addon">
+											<a href=""
+												><i class="fa fa-eye-slash" aria-hidden="true"></i
+											></a>
+										</div>
+									</div>
+									<div class="invalid-feedback">
+										Please write your phone number!
+									</div>
+								</div>
+								<div class="form-group">
+									<label for="validationCustom03">Your email:</label>
+									<input
+										type="email"
+										class="form-control"
+										id="validationCustom03"
+										placeholder="test@test.io"
+										required
+									/>
+									<div class="invalid-feedback">Please write your email!</div>
+								</div>
+
+								<button type="submit" class="btn btn-primary">Send</button>
+							</form>
+						</div>
+						<div class="modal-footer">
+							<button
+								type="button"
+								class="btn btn-secondary"
+								data-dismiss="modal"
+							>
+								Close
+							</button>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<div class="clearfix"></div>
+
+		<!-- Choose -->
+		<section id="choose">
+			<div class="container">
+				<div class="row row-cols-2 choose__block">
+					<div class="col-lg-6 col-sm-12 align-self-center">
+						<h3 class="choose__h3">
+							We have 13 years of experience in Auhandy.
+						</h3>
+					</div>
+					<div
+						class="
+							col-lg-6 col-sm-12
+							d-flex
+							justify-content-center
+							align-self-center
+						"
+					>
+						<button class="btnChoose d-flex align-items-center" disabled>
+							<i class="fas fa-mobile-alt"></i>+1 23 568 8967
+						</button>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<!-- Choose section -->
+		<section class="d-flex justify-content-center">
+			<div class="choose-wrapper">
+				<div class="container">
+					<div class="row">
+						<div
+							class="col-lg-5 col-md-5 col-sm-12 servLeft"
+							data-aos="fade-right"
+							data-aos-delay="600"
+						>
+							<img
+								class="bottom-rabbit"
+								src="./IMG/ChooseRabbit.png"
+								alt="Rabbit"
+							/>
+						</div>
+
+						<div class="col-lg-7 col-md-7 col-sm-12 servRight">
+							<h5 class="py-4" data-aos="zoom-in" data-aos-delay="300">
+								Why Choose Us
+							</h5>
+							<p data-aos="zoom-in" data-aos-delay="600">
+								Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+								Maecenas nec ligula temp cursus justo eu, blandit quam. Sed
+								viverra, quam ut maximus porta, lorem bibendum metus, et
+								eleifend mi nunc ac arcu facilisis lorem urna eu quam.
+							</p>
+
+							<div class="container">
+								<div
+									class="row row-cols-2 chs__wrapp"
+									data-aos="fade-up"
+									data-aos-delay="300"
+								>
+									<div class="col-lg-6 col-sm-12 blocks">
+										<i class="fas fa-cog float-left"></i>
+										<div class="group">
+											<h6>Easy To Customize.</h6>
+											<p>
+												Mauris efficitur mi eu nisi venenatis vestibulum sit
+												tellus.
+											</p>
+										</div>
+									</div>
+									<div class="col-lg-6 col-sm-12 blocks">
+										<i class="fas fa-gift float-left"></i>
+										<div class="group">
+											<h6>Gift For Loyal Customers</h6>
+											<p>
+												Ut imperdiet libero sed tel pretium convallis quis
+												lectus.
+											</p>
+										</div>
+									</div>
+
+									<div class="col-lg-6 col-sm-12 blocks">
+										<i class="fas fa-comment float-left"></i>
+										<div class="group">
+											<h6>24/7 Support Service</h6>
+											<p>
+												Aliquam vel felis quis ipsum fermentum sollicitudin
+												eget.
+											</p>
+										</div>
+									</div>
+									<div class="col-lg-6 col-sm-12 blocks">
+										<i class="fas fa-heart float-left"></i>
+										<div class="group">
+											<h6>Favorite Customers</h6>
+											<p>Lorem ipsum dolor sit a consectetur adipiscing.</p>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<!-- Services  -->
+		<section id="services">
+			<div class="service-wrapper">
+				<div class="container">
+					<div class="row" data-aos="fade-down" data-aos-delay="300">
+						<div class="col-lg-12 col-md-12 col-sm-12">
+							<h1 class="headServ">Our Services</h1>
+						</div>
+					</div>
+
+					<div
+						class="row row-cols-4 service-block__two"
+						data-aos="fade-down"
+						data-aos-delay="300"
+					>
+						<div class="col-lg-3 col-md-6 col-sm-12 service-block__three">
+							<div class="border__service">
+								<i class="fas fa-cogs d-flex justify-content-center"></i>
+								<div class="clear-fix"></div>
+								<div class="service__group">
+									<h3>Engine Repairs</h3>
+									<p>
+										Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+									</p>
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-3 col-md-6 col-sm-12 service-block__three">
+							<div class="border__service">
+								<i class="fas fa-bolt d-flex justify-content-center"></i>
+								<div class="clear-fix"></div>
+								<div class="service__group">
+									<h3>Electrical</h3>
+									<p>
+										Donec malesuada, purus a viverra sodales leo purus lobortis
+									</p>
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-3 col-md-6 col-sm-12 service-block__three">
+							<div class="border__service">
+								<i class="fas fa-faucet d-flex justify-content-center"></i>
+								<div class="clear-fix"></div>
+								<div class="service__group">
+									<h3>Plumbing</h3>
+									<p>Praesent dignissim mattis mauris. Sed finibus elementu.</p>
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-3 col-md-6 col-sm-12 service-block__three">
+							<div class="border__service">
+								<i class="fas fa-wrench d-flex justify-content-center"></i>
+								<div class="clear-fix"></div>
+								<div class="service__group">
+									<h3>Repair House</h3>
+									<p>Phasellus venenatis mauris eget isque tincidunt</p>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div
+						class="row align-items-center justify-content-center"
+						data-aos="fade-up"
+						data-aos-delay="300"
+					>
+						<div class="row-cols-1">
+							<button class="service__btn">View All Services</button>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<!-- Projects -->
+		<section id="projects">
+			<div class="projects__wrapper">
+				<div class="container">
+					<div class="row justify-content-center align-items-center">
+						<div class="col-lg-12 col-md-12 col-sm-12">
+							<h1 class="prj__h3">Our Projects</h1>
+						</div>
+					</div>
+
+					<div
+						class="
+							row row-cols-6
+							d-flex
+							align-items-center
+							justify-content-center
+							prj__nav
+						"
+					>
+						<div class="col-lg-2 col-sm-12 prj__menu active">All</div>
+						<div class="col-lg-2 col-sm-12 prj__menu">Engineer Repair</div>
+						<div class="col-lg-2 col-sm-12 prj__menu">Electrical</div>
+						<div class="col-lg-2 col-sm-12 prj__menu">Plumbing</div>
+						<div class="col-lg-2 col-sm-12 prj__menu">Repair House</div>
+						<div class="col-lg-2 col-sm-12 prj__menu">Wall Paint</div>
+					</div>
+
+					<div class="row row-cols-6 no-gutters prj__col">
+						<div class="col-lg-4 col-md-6 col-sm-12 prj__opacity">
+							<img class="prj__img" src="./IMG/ProjectCable.png" alt="Rabbit" />
+							<div class="overlay">
+								<div class="text">
+									<h4>Pellentesque finibus maximus.</h4>
+									<p>Repair House</p>
+									<i class="fas fa-search"></i>
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-4 col-md-6 col-sm-12 prj__opacity">
+							<img class="prj__img" src="./IMG/ProjectBear.png" alt="Bear" />
+							<div class="overlay">
+								<div class="text">
+									<h4>Pellentesque finibus maximus.</h4>
+									<p>Engineer Repair</p>
+									<i class="fas fa-search"></i>
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-4 col-md-6 col-sm-12 prj__opacity">
+							<img class="prj__img" src="./IMG/ProjectCable.png" alt="Cable" />
+							<div class="overlay">
+								<div class="text">
+									<h4>Pellentesque finibus maximus.</h4>
+									<p>Plumbing</p>
+									<i class="fas fa-search"></i>
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-4 col-md-6 col-sm-12 prj__opacity">
+							<img class="prj__img" src="./IMG/ProjectBear.png" alt="Rabbit" />
+							<div class="overlay">
+								<div class="text">
+									<h4>Pellentesque finibus maximus.</h4>
+									<p>Wall Paint</p>
+									<i class="fas fa-search"></i>
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-4 col-md-6 col-sm-12 prj__opacity">
+							<img class="prj__img" src="./IMG/ProjectCable.png" alt="Cable" />
+							<div class="overlay">
+								<div class="text">
+									<h4>Pellentesque finibus maximus.</h4>
+									<p>Electrical</p>
+									<i class="fas fa-search"></i>
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-4 col-md-6 col-sm-12 prj__opacity">
+							<img class="prj__img" src="./IMG/ProjectBear.png" alt="Bear" />
+							<div class="overlay">
+								<div class="text">
+									<h4>Pellentesque finibus maximus.</h4>
+									<p>Repair House</p>
+									<i class="fas fa-search"></i>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="row align-items-center justify-content-center">
+						<div class="row-cols-1">
+							<button class="prj__btn">All Projects</button>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<!-- Problems -->
+		<section id="problems">
+			<div class="prb__wrapper">
+				<div class="container no-gutters">
+					<div class="row justify-content-center row-cols-2">
+						<div class="col justify-content-start align-self-center prb__block">
+							<h3 class="prb__h3">You have some problems in housing?</h3>
+							<button class="prb__btn d-flex align-items-center" disabled>
+								<i class="fas fa-mobile-alt"></i>+1 23 568 8967
+							</button>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<!-- Contact -->
+		<section id="contacts">
+			<div class="cont__wrapper">
+				<div class="container-fluid">
+					<div class="cont__row">
+						<div class="row cont__second">
+							<div class="col-lg-5 col-md-12 cont__block">
+								<h2 class="py-4">Our Location</h2>
+								<div id="map"></div>
+							</div>
+
+							<div class="col-lg-7 col-md-12 cont__block">
+								<h2 class="py-4 align-self-start">Get a quote</h2>
+								<form>
+									<div class="form-row">
+										<div class="form-group col-lg-6">
+											<input
+												type="text"
+												class="form-control"
+												placeholder="First Name"
+											/>
+										</div>
+										<div class="form-group col-lg-6">
+											<input
+												type="text"
+												class="form-control"
+												placeholder="Last Name"
+											/>
+										</div>
+										<div class="form-group col-lg-6">
+											<input
+												type="email"
+												class="form-control"
+												id="inputEmail4"
+												placeholder="Email"
+											/>
+										</div>
+										<div class="form-group col-lg-6">
+											<input
+												type="text"
+												class="form-control"
+												id="inputAddress"
+												placeholder="Adress"
+											/>
+										</div>
+										<div class="form-group col-lg-12">
+											<textarea
+												class="form-control"
+												id="exampleFormControlTextarea1"
+												rows="3"
+											></textarea>
+										</div>
+									</div>
+									<button type="submit" class="cont__btn mb-2">Send</button>
+								</form>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<!-- Ticket -->
+		<section>
+			<div class="container tkt__wrapper">
+				<div
+					class="
+						row
+						no-gutters
+						row-cols-4
+						tkt__wrapper
+						justify-content-center
+						align-items-center
+					"
+				>
+					<div class="col-lg-3 col-md-6 col-sm-12 p-5">
+						<img src="./IMG/FooterLogo-1.png" alt="Sticker" />
+					</div>
+					<div class="col-lg-3 col-md-6 col-sm-12 p-5">
+						<img src="./IMG/FooterLogo-2.png" alt="Sticker" />
+					</div>
+					<div class="col-lg-3 col-md-6 col-sm-12 p-5">
+						<img src="./IMG/FooterLogo-3.png" alt="Sticker" />
+					</div>
+					<div class="col-lg-3 col-md-6 col-sm-12 p-5">
+						<img src="./IMG/FooterLogo-4.png" alt="Sticker" />
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<!-- Footer -->
+		<section id="footer">
+			<div class="container-fluid foot__wrapper">
+				<div class="row d-flex flex-column frst__column float-left">
+					<div class="col foot__nav">Contact us</div>
+					<div class="col blocks">
+						<i class="fas fa-mobile-alt float-left"></i>
+						<h6>+1 23 567 8596</h6>
+						<p>Support 24/7 Weekdays</p>
+					</div>
+					<div class="col blocks">
+						<i class="fas fa-map-marker-alt float-left"></i>
+						<p class="pt-3">Auhandy Tower, New York, NY 10013, USA</p>
+					</div>
+					<div class="col blocks">
+						<i class="fas fa-envelope float-left"></i>
+						<p class="pt-3">info@example.com</p>
+					</div>
+					<div class="col blocks">
+						<i class="fas fa-clock float-left"></i>
+						<p class="pt-3">Weekdays: 09:00am - 06:00pm</p>
+					</div>
+				</div>
+
+				<div class="row scnd__column float-left">
+					<div class="col-lg-12 foot__nav">Our Services</div>
+
+					<div class="row pr-4 d-flex flex-column float-left foot__row">
+						<div class="col blocks">
+							<i class="fas fa-chevron-right float-left"></i>
+							<h6>Electrical</h6>
+						</div>
+						<div class="col blocks">
+							<i class="fas fa-chevron-right float-left"></i>
+							<h6>Plumbing</h6>
+						</div>
+						<div class="col blocks">
+							<i class="fas fa-chevron-right float-left"></i>
+							<h6>Engine Repair</h6>
+						</div>
+						<div class="col blocks">
+							<i class="fas fa-chevron-right float-left"></i>
+							<h6>Repair House</h6>
+						</div>
+						<div class="col blocks">
+							<i class="fas fa-chevron-right float-left"></i>
+							<h6>Home Maintenance</h6>
+						</div>
+						<div class="col blocks">
+							<i class="fas fa-chevron-right float-left"></i>
+							<h6>Wall Paint</h6>
+						</div>
+					</div>
+
+					<div class="row d-flex flex-column float-right foot__row">
+						<div class="col blocks">
+							<i class="fas fa-chevron-right float-left"></i>
+							<h6>Installation</h6>
+						</div>
+						<div class="col blocks">
+							<i class="fas fa-chevron-right float-left"></i>
+							<h6>Garden Repairs</h6>
+						</div>
+						<div class="col blocks">
+							<i class="fas fa-chevron-right float-left"></i>
+							<h6>Soil Drilling</h6>
+						</div>
+						<div class="col blocks">
+							<i class="fas fa-chevron-right float-left"></i>
+							<h6>Support 24/7</h6>
+						</div>
+						<div class="col blocks">
+							<i class="fas fa-chevron-right float-left"></i>
+							<h6>Inspection House</h6>
+						</div>
+						<div class="col blocks">
+							<i class="fas fa-chevron-right float-left"></i>
+							<h6>Remodeling Ceiling</h6>
+						</div>
+					</div>
+				</div>
+
+				<div
+					class="row flex-column justify-content-center thrd__column float-left"
+				>
+					<div class="col sale__one">
+						GET <span>25%</span> OFF<br />
+						Electrical Service
+					</div>
+					<div class="col sale__two">Redeem Code: <span>HANDYHPY28</span></div>
+				</div>
+			</div>
+		</section>
+
+		<!-- End -->
+		<section id="end">
+			<div class="container-fluid end__wrapper">
+				<div class="row">
+					<div class="col-lg-12 end__block">
+						Copyright &copy; 2021 <span>Auhandy.</span> Get The Theme
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<!-- JS libraries -->
+		<script
+			src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+			integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+			crossorigin="anonymous"
+		></script>
+		<script
+			src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+			integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+			crossorigin="anonymous"
+		></script>
+		<script
+			src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.min.js"
+			integrity="sha384-VHvPCCyXqtD5DqJeNxl2dtTyhF78xXNXdkwX1CZeRusQfRKp+tA7hAShOK/B/fQ2"
+			crossorigin="anonymous"
+		></script>
+
+		<!-- AOS librarie -->
+		<script
+			src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"
+			integrity="sha512-A7AYk1fGKX6S2SsHywmPkrnzTZHrgiVT7GcQkLGDe2ev0aWb8zejytzS8wjo7PGEXKqJOrjQ4oORtnimIRZBtw=="
+			crossorigin="anonymous"
+			referrerpolicy="no-referrer"
+		></script>
+
+		<!-- Main JS -->
+		<script src="/JS/index.js"></script>
+		<script>
+			(function () {
+				"use strict";
+				window.addEventListener(
+					"load",
+					function () {
+						let forms = document.getElementsByClassName("needs-validation");
+						let validation = Array.prototype.filter.call(
+							forms,
+							function (form) {
+								form.addEventListener(
+									"submit",
+									function (event) {
+										if (form.checkValidity() === false) {
+											event.preventDefault();
+											event.stopPropagation();
+										}
+										form.classList.add("was-validated");
+									},
+									false
+								);
+							}
+						);
+					},
+					false
+				);
+			})();
+		</script>
+	</body>
+</html>
